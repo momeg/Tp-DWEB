@@ -1,0 +1,36 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>TP 3IF Ajax</title>
+    <meta name="author" content="Elöd EGYED-ZSIGMOND">
+
+    <script type="text/javascript" src="partieJavascript.js"></script>
+
+</head>
+
+<body <p="">Fichier à modifier/compélter<p></p>
+    <p>
+        <input name="button" id="myButton1" value="1. fond bleu" onclick = "changeValue();" type="button">
+        <input name="text" id="myText1" value="Toto" type="text">
+        <br>
+        <input name="button2" id="myButton2" onclick="resetbg()" value="2.fond blanc" type="button">
+        <br>
+        <input name="button3" id="myButton3" onclick="Bouton3_ajaxEmployees('countriesTP.xml','France')" value="3.Capitale et nom officiel" type="button">
+        <br>
+		<input name="button4" id="myButton4" onclick="affichercarte()" value="4.afficher image" type="button">
+        <br>
+		<!-- <svg id = "carte" width="300" height="200"/> -->
+		<img id = "image"/>
+		
+    </p>
+    <div>
+        <p>Les noms sont : <br>
+            <span id="id_nom_a_remplacer" style="color: red; font-weight: bold;">LES NOMS (Cet élément va être remplacé par les noms) </span>.</p>
+    </div>
+    <div id="id_element_a_remplacer">
+        <p style="color: red; font-weight: bold;">Cet élément va être remplacé par une carte !</p>
+    </div>
+</body></html>
+
+
+
